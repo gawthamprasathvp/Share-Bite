@@ -1,0 +1,22 @@
+[
+  {
+    "id": "imp1",
+    "createdAt": "2026-07-17T16:48:09.968Z",
+    "donorId": "inst1",
+    "listingId": "list4",
+    "mealsSaved": 30,
+    "carbonSaved": 75,
+    "waterSaved": 30000,
+    "recipientId": "recipient1"
+  },
+  {
+    "id": "imp2",
+    "createdAt": "2026-07-16T16:48:09.968Z",
+    "donorId": "donor1",
+    "listingId": "list_prev1",
+    "mealsSaved": 4,
+    "carbonSaved": 10,
+    "waterSaved": 4000,
+    "recipientId": "recipient2"
+  }
+]

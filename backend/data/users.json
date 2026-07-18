@@ -1,0 +1,58 @@
+[
+  {
+    "id": "donor1",
+    "createdAt": "2026-07-18T16:48:09.957Z",
+    "phone": "9876543210",
+    "role": "donor",
+    "name": "Aarav Sharma",
+    "score": 120,
+    "streak": 3
+  },
+  {
+    "id": "inst1",
+    "createdAt": "2026-07-18T16:48:09.959Z",
+    "phone": "8765432109",
+    "role": "institution",
+    "name": "Grand Pavilion Restaurant",
+    "score": 450,
+    "streak": 12,
+    "details": {
+      "address": "12, MG Road, Bangalore",
+      "outletCount": 3,
+      "tier": "Gold Partner"
+    },
+    "verified": true
+  },
+  {
+    "id": "recipient1",
+    "createdAt": "2026-07-18T16:48:09.960Z",
+    "phone": "7654321098",
+    "role": "recipient",
+    "name": "Community Care NGO",
+    "tokens": 8
+  },
+  {
+    "id": "recipient2",
+    "createdAt": "2026-07-18T16:48:09.961Z",
+    "phone": "7654321099",
+    "role": "recipient",
+    "name": "Raju (Feature Phone User)",
+    "tokens": 3
+  },
+  {
+    "id": "delivery1",
+    "createdAt": "2026-07-18T16:48:09.962Z",
+    "phone": "6543210987",
+    "role": "delivery",
+    "name": "Karthik Kumar",
+    "verified": true,
+    "score": 95
+  },
+  {
+    "id": "admin1",
+    "createdAt": "2026-07-18T16:48:09.963Z",
+    "phone": "9999999999",
+    "role": "admin",
+    "name": "System Admin"
+  }
+]

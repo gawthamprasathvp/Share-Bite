@@ -1,0 +1,30 @@
+[
+  {
+    "id": "del1",
+    "createdAt": "2026-07-18T16:48:09.967Z",
+    "listingId": "list3",
+    "riderId": "delivery1",
+    "status": "accepted",
+    "pay": 60,
+    "pickupAddress": "Grand Pavilion Restaurant, MG Road, Bangalore",
+    "dropAddress": "Community Care NGO Center, Bangalore",
+    "pickupCode": "439201",
+    "deliveryCode": "887612",
+    "distance": 3.2,
+    "urgency": "medium"
+  },
+  {
+    "id": "del2",
+    "createdAt": "2026-07-18T16:48:09.968Z",
+    "listingId": "list4",
+    "riderId": "delivery1",
+    "status": "completed",
+    "pay": 85,
+    "pickupAddress": "Grand Pavilion Restaurant, MG Road, Bangalore",
+    "dropAddress": "Community Care NGO Center, Bangalore",
+    "pickupCode": "228394",
+    "deliveryCode": "773829",
+    "distance": 4.8,
+    "urgency": "low"
+  }
+]

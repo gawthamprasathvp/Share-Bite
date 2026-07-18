@@ -1,0 +1,131 @@
+[
+  {
+    "id": "list1",
+    "createdAt": "2026-07-18T16:48:09.963Z",
+    "donorId": "inst1",
+    "donorName": "Grand Pavilion Restaurant",
+    "title": "Freshly Baked Roti & Paneer Curry",
+    "description": "15 portions of Paneer Butter Masala with Butter Rotis. Packed separately in food-grade containers.",
+    "quantity": "15 portions",
+    "prepTime": "2026-07-18T14:48:09.963Z",
+    "expiryTime": "2026-07-18T20:48:09.963Z",
+    "pickupWindow": "22:00 - 23:30",
+    "allergens": [
+      "dairy",
+      "gluten"
+    ],
+    "dietaryTags": [
+      "veg",
+      "high protein"
+    ],
+    "status": "available",
+    "claimedBy": null,
+    "deliveryPartnerId": null,
+    "deliveryStatus": "none",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "address": "MG Road, Bangalore"
+    },
+    "riskScore": 24,
+    "riskLevel": "low",
+    "pickupCode": "102938",
+    "deliveryCode": "582910",
+    "photo": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "list2",
+    "createdAt": "2026-07-18T16:48:09.965Z",
+    "donorId": "donor1",
+    "donorName": "Aarav Sharma",
+    "title": "Homemade Vegetable Khichdi",
+    "description": "Delicious hot khichdi made at home. Suitable for 3-4 people. Please bring your own container if possible.",
+    "quantity": "4 portions",
+    "prepTime": "2026-07-18T12:48:09.964Z",
+    "expiryTime": "2026-07-18T18:18:09.964Z",
+    "pickupWindow": "21:30 - 23:00",
+    "allergens": [],
+    "dietaryTags": [
+      "veg",
+      "low sugar",
+      "diabetic safe"
+    ],
+    "status": "available",
+    "claimedBy": null,
+    "deliveryPartnerId": null,
+    "deliveryStatus": "none",
+    "location": {
+      "latitude": 12.9806,
+      "longitude": 77.6,
+      "address": "Indiranagar, Bangalore"
+    },
+    "riskScore": 69,
+    "riskLevel": "medium",
+    "pickupCode": "748291",
+    "deliveryCode": "918273",
+    "photo": "https://images.unsplash.com/photo-1601050690597-df056fb4ce78?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "list3",
+    "createdAt": "2026-07-18T16:48:09.966Z",
+    "donorId": "inst1",
+    "donorName": "Grand Pavilion Restaurant",
+    "title": "Vegetable Biryani Bulk Pack",
+    "description": "Large tray of aromatic veg biryani. Serves around 25 people. Ideal for shelter home distribution.",
+    "quantity": "25 portions",
+    "prepTime": "2026-07-18T13:48:09.965Z",
+    "expiryTime": "2026-07-18T19:48:09.965Z",
+    "pickupWindow": "19:00 - 21:00",
+    "allergens": [],
+    "dietaryTags": [
+      "veg",
+      "high calorie"
+    ],
+    "status": "claimed",
+    "claimedBy": "recipient1",
+    "deliveryPartnerId": "delivery1",
+    "deliveryStatus": "assigned",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "address": "MG Road, Bangalore"
+    },
+    "riskScore": 41,
+    "riskLevel": "medium",
+    "pickupCode": "439201",
+    "deliveryCode": "887612",
+    "photo": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    "id": "list4",
+    "createdAt": "2026-07-18T16:48:09.966Z",
+    "donorId": "inst1",
+    "donorName": "Grand Pavilion Restaurant",
+    "title": "Lentil Soup (Dal Tadka) & Rice",
+    "description": "Simple nutritious dal and rice. 30 packs.",
+    "quantity": "30 portions",
+    "prepTime": "2026-07-17T16:48:09.966Z",
+    "expiryTime": "2026-07-17T22:48:09.966Z",
+    "pickupWindow": "12:00 - 14:00",
+    "allergens": [],
+    "dietaryTags": [
+      "veg",
+      "diabetic safe",
+      "low sugar"
+    ],
+    "status": "delivered",
+    "claimedBy": "recipient1",
+    "deliveryPartnerId": "delivery1",
+    "deliveryStatus": "delivered",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946,
+      "address": "MG Road, Bangalore"
+    },
+    "riskScore": 52,
+    "riskLevel": "medium",
+    "pickupCode": "228394",
+    "deliveryCode": "773829",
+    "photo": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600"
+  }
+]

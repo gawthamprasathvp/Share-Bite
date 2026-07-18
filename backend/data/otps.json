@@ -1,0 +1,30 @@
+[
+  {
+    "id": "wgj07bgqemrqmfdw3",
+    "createdAt": "2026-07-18T17:08:43.155Z",
+    "phone": "+918438155411",
+    "code": "443811",
+    "expiresAt": "2026-07-18T17:13:43.154Z"
+  },
+  {
+    "id": "sfmc19iefmrqoccpa",
+    "createdAt": "2026-07-18T18:02:20.878Z",
+    "phone": "1234567890",
+    "code": "332009",
+    "expiresAt": "2026-07-18T18:07:20.877Z"
+  },
+  {
+    "id": "0svxd8vvumrqoee2y",
+    "createdAt": "2026-07-18T18:03:55.978Z",
+    "phone": "2345678910",
+    "code": "223487",
+    "expiresAt": "2026-07-18T18:08:55.977Z"
+  },
+  {
+    "id": "4k9kmoomgmrqoey2q",
+    "createdAt": "2026-07-18T18:04:21.890Z",
+    "phone": "8438155411",
+    "code": "242466",
+    "expiresAt": "2026-07-18T18:09:21.889Z"
+  }
+]
