@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 // API Configuration & Hybrid Fallback
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5000/api';
 
 // Inline SVG Icon components for absolute zero-dependency safety and high performance
 const Icons = {
