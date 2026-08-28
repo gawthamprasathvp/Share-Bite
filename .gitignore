@@ -35,3 +35,4 @@ ehthumbs.db
 
 # Large Word Document specifications (optional to exclude)
 *.docx
+.vercel
