@@ -1,13 +1,39 @@
 const fs = require('fs');
 const path = require('path');
 
-const DATA_DIR = path.join(__dirname, 'data');
+const isVercel = Boolean(process.env.VERCEL || process.env.AWS_LAMBDA_FUNCTION_NAME);
+const SEED_DATA_DIR = path.join(__dirname, 'data');
+const DATA_DIR = isVercel ? path.join('/tmp', 'sharebite-data') : SEED_DATA_DIR;
 
-if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR, { recursive: true });
-}
+const ensureDataDir = () => {
+    if (!fs.existsSync(DATA_DIR)) {
+        try {
+            fs.mkdirSync(DATA_DIR, { recursive: true });
+        } catch (e) {
+            console.error('Error creating data directory:', e);
+        }
+    }
+    if (isVercel && fs.existsSync(SEED_DATA_DIR)) {
+        try {
+            const files = fs.readdirSync(SEED_DATA_DIR);
+            for (const file of files) {
+                const target = path.join(DATA_DIR, file);
+                if (!fs.existsSync(target)) {
+                    fs.copyFileSync(path.join(SEED_DATA_DIR, file), target);
+                }
+            }
+        } catch (e) {
+            console.error('Error copying seed data to /tmp:', e);
+        }
+    }
+};
 
-const getFilePath = (collection) => path.join(DATA_DIR, `${collection}.json`);
+ensureDataDir();
+
+const getFilePath = (collection) => {
+    ensureDataDir();
+    return path.join(DATA_DIR, `${collection}.json`);
+};
 
 const readData = (collection) => {
     const filePath = getFilePath(collection);
