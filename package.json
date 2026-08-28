@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "node backend/server.js"
+    "server": "node lib/server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",

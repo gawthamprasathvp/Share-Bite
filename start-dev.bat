@@ -4,7 +4,7 @@ echo           Starting ShareBite Platform Dev Servers
 echo =======================================================
 echo.
 echo Starting Express Backend on http://localhost:5000 ...
-start cmd /k "cd backend && npm run dev"
+start cmd /k "node lib/server.js"
 echo.
 echo Starting Vite Frontend on http://localhost:5173 ...
 start cmd /k "npm run dev"
