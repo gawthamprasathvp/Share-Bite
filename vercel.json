@@ -1,5 +1,4 @@
 {
-  "name": "share-bite",
   "rewrites": [
     {
       "source": "/api/(.*)",
